@@ -1,0 +1,79 @@
+{
+    "deportistas": [
+        {
+            "id": 1,
+            "nombre": "Cristian",
+            "apellidos": "Alvarez Hernandez",
+            "edad": 22
+        },
+        {
+            "id": 2,
+            "nombre": "Juan",
+            "apellidos": "Fernandez Perez",
+            "edad": 18
+        },
+        {
+            "id": 3,
+            "nombre": "Ricardo",
+            "apellidos": "Valdez Ramirez",
+            "edad": 24
+        },
+        {
+            "id": 4,
+            "nombre": "Pedro",
+            "apellidos": "Bedoya Velez",
+            "edad": 14
+        }
+    ],
+    "deportes": [
+        {
+            "id": 1,
+            "nombre": "Futbol",
+            "descripcion": "Patear una pelota con el pie"
+        },
+        {
+            "id": 2,
+            "nombre": "Basquetbol",
+            "descripcion": "Parecido al Futbol pero con las manos"
+        },
+        {
+            "id": 3,
+            "nombre": "Rugby",
+            "descripcion": "Deshagar la rabia"
+        }
+    ],
+    "deportista_deporte": [
+        {
+            "id_deportista": 1,
+            "id_deporte": 3
+        },
+        {
+            "id_deportista": 1,
+            "id_deporte": 2
+        },
+        {
+            "id_deportista": 2,
+            "id_deporte": 1
+        },
+        {
+            "id_deportista": 2,
+            "id_deporte": 3
+        },
+        {
+            "id_deportista": 2,
+            "id_deporte": 2
+        },
+        {
+            "id_deportista": 3,
+            "id_deporte": 3
+        },
+        {
+            "id_deportista": 4,
+            "id_deporte": 3
+        },
+        {
+            "id_deportista": 4,
+            "id_deporte": 1
+        }
+    ] 
+}
